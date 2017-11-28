@@ -20,6 +20,10 @@ const business = {
 const businesses = [business,business,business,business,business,business]
 
 class App extends Component {
+
+  searchYelp(term,location,sortBy){
+
+  }
   render() {
     return (
       <div class="App">
@@ -29,6 +33,7 @@ class App extends Component {
     </div>
     );
   }
+
 }
 
 export default App;
